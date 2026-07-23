@@ -1,23 +1,65 @@
 aid: anto-biosciences
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/anto-biosciences.png
 name: Anto Biosciences
-description: Anto Biosciences is a company surfaced as a portfolio company of y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Anto Biosciences is a frontier biology AI lab making the gut microbiome computable for the first
+  time. It builds foundation models for microbial communities and quality-aware, goal-directed
+  sparsification algorithms that filter noise from microbiome data to predict how the gut microbiome
+  affects drug efficacy, toxicity, and safety across diverse populations (by geography, age, and diet).
+  Applications include population-specific drug response prediction, identifying failure mechanisms at
+  the microbial metabolic-pathway level, and molecule optimization for broader effectiveness. Backed by
+  Y Combinator, the company is early stage and research-focused; it does not currently publish a public
+  API, developer portal, SDKs, or a GitHub organization. This profile was added to the API Evangelist
+  network as a lead and enriched with verified identity links only (no API artifacts, none published).
 url: https://raw.githubusercontent.com/api-evangelist/anto-biosciences/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Biotech
+- Life Sciences
+- Artificial Intelligence
+- Machine Learning
+- Microbiome
+- Drug Discovery
+- Computational Biology
+- Foundation Models
+- Y Combinator
+common:
+- type: Website
+  url: https://www.anto.bio/
+- type: Support
+  url: mailto:founders@anto.bio
+- type: TermsOfService
+  url: https://www.anto.bio/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.anto.bio/privacy-policy
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
