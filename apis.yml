@@ -45,10 +45,10 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
-- Biotech
+- Biotechnology
 - Life Sciences
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Microbiome
 - Drug Discovery
 - Computational Biology
@@ -65,6 +65,7 @@ tags_raw:
 - Computational Biology
 - Foundation Models
 - Y Combinator
+- Machine-Learning
 common:
 - type: Website
   url: https://www.anto.bio/
